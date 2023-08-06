@@ -1,0 +1,10 @@
+# define N 4  
+void floydwarshall()  
+{  
+int cost [N][N];  
+int i, j, k;  
+for(i=0; i cost [i] [k] + cost [k][j];  
+cost [i][j]=cost [i] [k]+'cost [k] [i]:  
+}  
+//display the matrix cost [N] [N]  
+}  
